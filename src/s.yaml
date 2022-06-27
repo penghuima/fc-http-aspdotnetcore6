@@ -47,12 +47,12 @@ services:
         name: dotnetcore6App
         description: "hello world by serverless devs"
         runtime: custom
-        codeUri: ./dotnetApp/target
+        codeUri: ./dotnetApp
         customRuntimeConfig:           # 自定义运行时启动配置
           command:                     # 启动指令，示例值: ["/code/myserver"]
             - dotnet
           args:                        # 启动参数，示例值: ["-arg1", "value1"]
-            - dotnetApp.dll
+            - ./target/dotnetApp.dll
         memorySize: 128
         timeout: 60
         environmentVariables:          #环境变量

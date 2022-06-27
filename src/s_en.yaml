@@ -47,12 +47,12 @@ services:
         name: dotnetcore6App
         description: "hello world by serverless devs"
         runtime: custom
-        codeUri: ./dotnetApp/target
+        codeUri: ./dotnetApp 
         customRuntimeConfig:           
           command:                     
             - dotnet
           args:                     
-            - dotnetApp.dll
+            - ./target/dotnetApp.dll
         memorySize: 128
         timeout: 60
         environmentVariables:  
