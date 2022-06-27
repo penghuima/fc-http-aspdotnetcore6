@@ -1,0 +1,12 @@
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/dotnetApp
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/target/web.config
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/appsettings.Development.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/appsettings.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/target/appsettings.Development.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/target/appsettings.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/target/dotnetApp.deps.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/target/dotnetApp.runtimeconfig.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/dotnetApp.dll
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/dotnetApp.deps.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/dotnetApp.runtimeconfig.json
+/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/target/dotnetApp.pdb
