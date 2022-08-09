@@ -2,7 +2,7 @@ Type: Application
 Name: start-fc-http-aspdotnetcore6
 Provider:
   - 阿里云
-Version: 0.0.4
+Version: 0.0.8
 Description: 快速部署一个基于custom runtime 的 asp.netcore6 HTTP 类型的 Hello World 到阿里云函数计算
 HomePage: https://github.com/penghuima/fc-http-aspdotnetcore6
 Tags:

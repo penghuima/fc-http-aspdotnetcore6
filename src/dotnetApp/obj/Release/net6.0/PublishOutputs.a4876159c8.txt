@@ -1,7 +1,0 @@
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/dotnetApp
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/appsettings.Development.json
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/appsettings.json
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/dotnetApp.dll
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/dotnetApp.deps.json
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/dotnetApp.runtimeconfig.json
-/Users/maph/Desktop/项目需求/dotnet6layer/start-express/src/code/dotnetApp/test-1/dotnetApp.pdb

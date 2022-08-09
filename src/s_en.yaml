@@ -36,7 +36,7 @@ services:
     actions:        # Customize execution logic. For the use of actions, please refer to: https://www.serverless-devs.com/serverless-devs/yaml#Behavior description
       pre-deploy:   # run before deploy
         - run: dotnet publish -c Release -o ./target    # System command to execute, similar to a hook
-          path: ./dotnetApp           # The path to execute system commands/hooks
+          path: ./TodoApi            # The path to execute system commands/hooks
         - plugin: layer-fc                # and running plugins (you can get a list of components via s cli registry search --type Plugin)
           args:                           # parameter information of the plugin
             customRuntime: dotnet6
@@ -47,16 +47,15 @@ services:
         name: "{{ functionName }}"
         description: "hello world by serverless devs"
         runtime: custom
-        codeUri: ./dotnetApp 
+        codeUri: ./TodoApi  
         customRuntimeConfig:           
           command:                     
             - dotnet
           args:                     
-            - ./target/dotnetApp.dll
+            - ./target/TodoApi.dll
         memorySize: 128
         timeout: 60
-        environmentVariables:  
-        
+        environmentVariables:    
       triggers:
         - name: httpTrigger
           type: http
@@ -64,14 +63,10 @@ services:
             authType: anonymous
             methods:
               - GET
-      customDomains:                  
-        - domainName: auto
-          protocol: HTTP
-          routeConfigs:
-            - path: /*
-              methods:
-                - GET
-                - POST
+              - POST
+              - PUT
+              - DELETE
+              - HEAD
 #  next-function: # The case of the second function, just for reference
 #    # If you execute s deploy under the current project, the modules will be deployed at the same time:
 #    #   helloworld: service hello-world-service, function cpp-event-function
